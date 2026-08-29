@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset = "UTF-8">
+    <title>
+         Poshtik campus - Menu
+    </title>
+</head>
+<body>
+    <h1>Our Menu</h1>
+    <p> Ten dishes , every one of them poshtik.</p>
+    <ul>
+        <li>Jonna Rotte Wrap</li>
+        <li>Sajja Roti Wrap</li>
+        <li>Ragi Sangati Bowl</li>
+        <li>Ragi Idli Bowl</li>
+        <li>Pesarattu with Sprouts</li>
+        <li>Ulava Charu Protein Bowl</li>
+        <li>Gongura Sprouts Salad</li>
+        <li> Sprouts Moong Chilla</li>
+        <li> Paneer Protein Bowl</li>
+        <li>Millet Protein Shake</li>
+        <li><a href="index.html">Home Page</a></li>
+        <li><a href = "about.html">About us</a></li>
+    </ul>
+    <h2>order from canteen</h2>
+    <form>
+        <p>
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name">
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone">
+        </p>
+        <fieldset>
+            <legend>choose your dish</legend>
+            <input type="radio" id="idli" name="dish">
+            <label for="idli">idli-30₹</label><br>
+            <input type="radio" id="thali" name="dish">
+            <label for="thali">Veg Thali - 60₹</label><br>
+            <input type="radio" id="rice" name="dish">
+            <label for="rice">Curd Rice-35₹</label><br>
+        </fieldset>
+        <p>
+            <label for="plate">How many plates?</label>
+            <input type="number" id="plate" name="plate" min="1" max="10" value="1">
+        </p>
+        <p>
+            <label for="notes">Anything else?</label>
+            <textarea type="text" id="notes" rows="3" cols="30"></textarea>
+        </p>
+        <button type="submit">Place Order</button>
+    </form>
+</body>
+</html>
